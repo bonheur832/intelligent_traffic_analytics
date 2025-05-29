@@ -1,4 +1,4 @@
-# 🚦 INTELLIGENT TRAFFIC ANALYSIS SYSTEM WITH YOLOv5
+# INTELLIGENT TRAFFIC ANALYSIS SYSTEM WITH YOLOv5
 
 A desktop-based real-time traffic monitoring application that uses **YOLOv5s** for efficient vehicle detection. Built using **Tkinter**, **OpenCV**, and **Ultralytics YOLO**, this tool is lightweight and optimized for machines with limited resources.
 
