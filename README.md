@@ -67,7 +67,7 @@ Ultralytics YOLO – Object detection
 ![Start Detection](images/start_detection.png)
 
 ### Prediction in Progress
-![60 Percent Prediction](images/60%25_prediction.png)
+![60 Percent Prediction](images/60%_prediction.png)
 
 ### Final Result Summary
 ![Final Result](images/final.png)
