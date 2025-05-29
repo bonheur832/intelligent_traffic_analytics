@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Traffic Video</title>
+    <style>
+        body { font-family: Arial, text-align: center; background-color: #f0f0f0; padding: 20px; }
+        input[type="file"] { margin-top: 10px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        img { margin-top: 20px; width: 80%; border: 2px solid #ccc; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🚦 Real-time Traffic Monitoring</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <br>
+        <button type="submit">Upload and Analyze</button>
+    </form>
+
+    {% if video_feed %}
+        <h2>🔍 Processing Video...</h2>
+        <img id="stream" src="{{ url_for('video_feed') }}" alt="Video Feed" onerror="redirectToResults()" />
+        <script>
+            function redirectToResults() {
+                setTimeout(function () {
+                    window.location.href = "{{ url_for('results') }}";
+                }, 1000);
+            }
+        </script>
+    {% endif %}
+</body>
+</html>
