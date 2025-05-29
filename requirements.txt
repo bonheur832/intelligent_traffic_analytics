@@ -1,6 +1,7 @@
-torch>=1.7
-opencv-python
-Pillow
-pandas
-matplotlib
-numpy
+torch == 2.7.0
+opencv-python == 4.11.0.86
+Pillow == 11.2.1
+pandas ==  2.2.3
+matplotlib ==  3.10.3
+numpy == 2.2.6
+ultralytics == 8.3.146
