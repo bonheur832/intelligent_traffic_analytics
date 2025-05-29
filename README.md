@@ -1,4 +1,4 @@
-# 🚦 Real-Time Traffic Monitoring with YOLOv5 and Tkinter
+# 🚦 INTELLIGENT TRAFFIC ANALYSIS SYSTEM WITH YOLOv5
 
 A desktop-based real-time traffic monitoring application that uses **YOLOv5s** for efficient vehicle detection. Built using **Tkinter**, **OpenCV**, and **Ultralytics YOLO**, this tool is lightweight and optimized for machines with limited resources.
 
@@ -60,8 +60,6 @@ Ultralytics YOLO – Object detection
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### GUI Interface
 <img src="images/first_screen.png" width="600"/>
 
@@ -69,7 +67,8 @@ Ultralytics YOLO – Object detection
 <img src="images/start_detection.png" width="600"/>
 
 ### Prediction in Progress
-<img src="images/60%_prediction.png" width="600"/>
+<img src="images/prediction_progress.png" width="600"/>
 
 ### Final Result Summary
 <img src="images/final.png" width="600"/>
+
