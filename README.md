@@ -60,14 +60,16 @@ Ultralytics YOLO – Object detection
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### GUI Interface
-![First Screen](images/first_screen.png)
+<img src="images/first_screen.png" width="600"/>
 
 ### After Uploading Video
-![Start Detection](images/start_detection.png)
+<img src="images/start_detection.png" width="600"/>
 
 ### Prediction in Progress
-![60 Percent Prediction](images/60%_prediction.png)
+<img src="images/60%_prediction.png" width="600"/>
 
 ### Final Result Summary
-![Final Result](images/final.png)
+<img src="images/final.png" width="600"/>
